@@ -2,9 +2,10 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu
+    destination: /var/www/html
 hooks:
-  AfterInstall:
+  BeforeInstall:
         - location: scripts/before_install.sh
+          
           
 

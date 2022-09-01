@@ -1,4 +1,5 @@
 #!/bin/bash
 
 sudo su
-sudo apt install curl
+sudo apt update
+sudo apt-get -y install nginx
