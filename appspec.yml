@@ -5,6 +5,4 @@ files:
     destination: /home/ubuntu
 hooks:
   BeforeInstall:
-    - location: beforeinstall.sh
-      timeout: 300
-      runas: root
+        - location: scripts/before_install.sh
