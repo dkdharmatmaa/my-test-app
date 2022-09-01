@@ -1,3 +1,4 @@
 #!/bin/bash
-cd /home/ubuntu
+
+set -euo pipefail
 sudo apt install nginx
