@@ -1,5 +1,3 @@
 #!/bin/bash
-
-sudo su
-sudo apt update
+cd /home/ubuntu
 sudo apt install nginx
