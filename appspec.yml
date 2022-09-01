@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu
-hooks:
-  BeforeInstall:
-    - location: beforeinstall.sh
-      timeout: 100
+# hooks:
+#   BeforeInstall:
+#     - location: beforeinstall.sh
+#       timeout: 100
