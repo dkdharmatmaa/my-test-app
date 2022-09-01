@@ -4,5 +4,6 @@ files:
   - source: /
     destination: /home/ubuntu
 hooks:
-  BeforeInstall:
+  AfterInstall:
         - location: scripts/before_install.sh
+        
