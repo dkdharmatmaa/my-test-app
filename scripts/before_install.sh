@@ -1,4 +1,5 @@
 #!/bin/bash
 
-set -euo pipefail
+sudo su
+sudo apt update
 sudo apt install nginx
